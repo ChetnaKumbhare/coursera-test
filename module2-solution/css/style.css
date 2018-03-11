@@ -1,0 +1,282 @@
+*{
+		box-sizing: border-box;
+	}
+	.row {
+		width:100%;
+	}
+#container
+{
+	border-style: solid;
+	border-width:0px 0px 2px 2px;
+	border-color: black;
+	width:100px;
+	height: 22px;
+	background-color: #D98880;
+	float:right;
+}
+#container1
+{
+	border-style: solid;
+	border-width:0px 0px 2px 2px;
+	border-color: black;
+	width:100px;
+	height: 22px;
+	background-color: #A04000;
+	float: right;
+}
+#container2
+{
+	border-style: solid;
+	border-width:0px 0px 2px 2px;
+	border-color: black;
+	width:100px;
+	height: 22px;
+	background-color: #F9E79F;
+	float: right;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float:left;
+		
+	}
+	.col-lg-1 {
+		width: 8.33%
+	}
+	.col-lg-2 {
+		width: 16.66%;
+	}
+	.col-lg-3 {
+	border:3px solid black;
+	width:30%;
+	background-color: #909497;
+	height: 200px;
+	margin:80px 0px 0px 40px;
+	}
+	.col-lg-3  #container p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+}
+
+.col-lg-3 #container1 p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+	color: white;
+}
+
+.col-lg-3 #container2 p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+	color: black;
+}
+.col-lg-3 p#paraouter
+{
+	font-weight: bold;
+	font-family: Times;
+	 
+}
+
+	.col-lg-4 {
+		width: 33%;
+	}
+	.col-lg-5 {
+		width: 41.66%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-7 {
+		width: 58.33%;
+	}
+	.col-lg-8 {
+		width: 66.66%;
+	}
+	.col-lg-9 {
+		width: 74.99%;
+	}
+	.col-lg-10 {
+		width: 83.33%;
+	}
+	.col-lg-11 {
+		width: 91.66%;
+	}
+	.col-md-12 {
+		width:100%;
+	}
+	
+}
+@media (max-width: 767px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+		float:left;
+		border: 1px solid green;
+	}
+	.col-xs-1 {
+		width: 8.33%
+	}
+	.col-xs-2 {
+		width: 16.66%;
+	}
+	.col-xs-3 {
+		width: 30%;
+	}
+	.col-xs-4 {
+		width: 33%;
+	}
+	.col-xs-5 {
+		width: 41.66%;
+	}
+	.col-xs-6 {
+		width: 50%;
+	}
+	.col-xs-7 {
+		width: 58.33%;
+	}
+	.col-xs-8 {
+		width: 66.66%;
+	}
+	.col-xs-9 {
+		width: 74.99%;
+	}
+	.col-xs-10 {
+		width: 83.33%;
+	}
+	.col-xs-11 {
+		width: 91.66%;
+	}
+	.col-xs-12 {
+	border:3px solid black;
+	width:100%;
+	background-color: #909497;
+	height: 200px;
+	margin:80px 0px 0px 40px;
+	}
+	.col-xs-12  #container p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+}
+
+.col-xs-12 #container1 p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+	color: white;
+}
+
+.col-xs-12 #container2 p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+	color: black;
+}
+.col-xs-12 p#paraouter
+{
+	font-weight: bold;
+	font-family: Times;
+	 
+}
+
+	
+}
+
+	@media (min-width:768px) and (max-width: 991px) {
+		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		float:left;
+		border: 1px solid green;
+	}
+	.col-md-1 {
+		width: 8.33%
+	}
+	.col-md-2 {
+		width: 16.66%;
+	}
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-4 {
+		width: 33%;
+	}
+	.col-md-5 {
+		width: 41.66%;
+	}
+	
+	.col-md-6 {
+	border:3px solid black;
+	width:30%;
+	background-color: #909497;
+	height: 200px;
+	margin:80px 0px 0px 40px;
+	}
+	.col-md-6  #container p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+}
+.col-md-6 #container1 p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+	color: white;
+}
+
+.col-md-6 #container2 p#parainner
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Times;
+	margin: 0.5px 2px 5px 5px;	
+	color: black;
+}
+.col-md-6 p#paraouter
+{
+	font-weight: bold;
+	font-family: Times;
+	 
+}
+	.col-md-7 {
+		width: 58.33%;
+	}
+	.col-md-8 {
+		width: 66.66%;
+	}
+	.col-md-9 {
+		width: 74.99%;
+	}
+	.col-md-10 {
+		width: 83.33%;
+	}
+	.col-md-11 {
+		width: 91.66%;
+	}
+	.col-md-12 {
+		width:100%;
+	}
+}
+h1
+{
+	font-weight:bold;
+	font-family: Times;
+	margin-top: 50px;
+	text-align: center;	
+}
+
